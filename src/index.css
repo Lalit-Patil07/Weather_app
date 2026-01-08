@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers for raw JSON */
+.raw-json pre {
+  max-height: 360px;
+  overflow: auto;
+  background: #0f1720;
+  color: #e6f0ff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+}
+
+
